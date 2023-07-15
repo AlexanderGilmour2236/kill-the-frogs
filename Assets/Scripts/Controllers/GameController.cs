@@ -120,7 +120,7 @@ namespace KillTheFrogs
             if (_frogsLeft <= 0)
             {
                 bool levelPass = _frogsCrossedTheRoad <= _currentLevelDifficultyData.frogsCrossedToWin;
-                levelPass = true;
+
                 _gameUI.goWinUI(_frogsLeft, _frogsCrossedTheRoad, levelPass);
                 if (levelPass)
                 {

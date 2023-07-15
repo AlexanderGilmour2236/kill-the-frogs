@@ -337,8 +337,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 20, y: 1.2911501, z: 1}
-  m_Center: {x: 0, y: 0.14557531, z: 0}
+  m_Size: {x: 20, y: 1.509676, z: 1}
+  m_Center: {x: 0, y: 0.25483823, z: 0}
 --- !u!114 &880546381562017022
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -616,6 +616,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: red_light
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 007ce6293edc55648b7d900992df71c0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 007ce6293edc55648b7d900992df71c0, type: 3}
 --- !u!1001 &3951702508188480436
@@ -699,6 +704,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: white_light
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 91eeed1ad5cbd9243a47349bc92b3ea8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 91eeed1ad5cbd9243a47349bc92b3ea8, type: 3}
@@ -1338,6 +1348,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: pillar
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 42fefd4f89d289c4b99ad71434fd7edb,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 42fefd4f89d289c4b99ad71434fd7edb, type: 3}

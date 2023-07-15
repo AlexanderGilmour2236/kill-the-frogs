@@ -15,10 +15,16 @@ namespace KillTheFrogs
         private float _maxZOffset;
 
         private Transform _targetPoint;
+        private Tween _cameraShakeTween;
 
         public void doShake(float intensity)
         {
-            _camera.DOShakePosition(0.5f, intensity);
+            if (_cameraShakeTween != null)
+            {
+                _cameraShakeTween.Kill(true);
+                _cameraShakeTween = null;
+            }
+            _cameraShakeTween = _camera.DOShakePosition(0.5f, intensity);
         }
 
         public void setTargetPoint(Transform targetPoint)
