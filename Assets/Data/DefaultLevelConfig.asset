@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac44a0d317724e948987e8b53c61a8f8, type: 3}
+  m_Name: DefaultLevelConfig
+  m_EditorClassIdentifier: 
+  _levelParts:
+  - {fileID: 3716887682395999528, guid: e09267f70e40bc149aa0d0acce4ede83, type: 3}
+  - {fileID: -5013173036938538348, guid: dba68b8ba009e9a47bca8eeee010c202, type: 3}
+  - {fileID: -6599654487107119643, guid: aa9b2ee8158f17b4ebd9de475600d53c, type: 3}
+  - {fileID: 1993613145788602957, guid: 5a0b5e3a57a16c44798a4cc0f005316b, type: 3}
+  - {fileID: -6599654487107119643, guid: 1a41547b5bc6e5545ab63048332dd160, type: 3}
+  - {fileID: -6599654487107119643, guid: bd4dad5a92620d54a857c4bf84ae362b, type: 3}
+  - {fileID: 3716887682395999528, guid: f0716cb28a44191489f6d8bf45a3f0fb, type: 3}
+  _levelDifficultiesData:
+  - levelPartsCount: 6
+    minRoadParts: 5
+    maxRoadParts: 5
+    minRailRoadParts: 1
+    maxRailRoadParts: 1
+    frogsCount: 5
+    frogsCrossedToWin: 1
+    frogsMinTimeToMove: 0.8
+    frogsMaxTimeToMove: 1
+    frogSpawnMinTime: 0.5
+    frogSpawnMaxTime: 1
+    frogMoveSidewaysChance: 3
+  - levelPartsCount: 10
+    minRoadParts: 4
+    maxRoadParts: 4
+    minRailRoadParts: 0
+    maxRailRoadParts: 2
+    frogsCount: 7
+    frogsCrossedToWin: 2
+    frogsMinTimeToMove: 0.7
+    frogsMaxTimeToMove: 0.9
+    frogSpawnMinTime: 0.4
+    frogSpawnMaxTime: 0.9
+    frogMoveSidewaysChance: 2
+  - levelPartsCount: 30
+    minRoadParts: 10
+    maxRoadParts: 10
+    minRailRoadParts: 0
+    maxRailRoadParts: 3
+    frogsCount: 1
+    frogsCrossedToWin: 0
+    frogsMinTimeToMove: 0.2
+    frogsMaxTimeToMove: 0.2
+    frogSpawnMinTime: 0
+    frogSpawnMaxTime: 0
+    frogMoveSidewaysChance: 10
+  - levelPartsCount: 13
+    minRoadParts: 5
+    maxRoadParts: 6
+    minRailRoadParts: 0
+    maxRailRoadParts: 2
+    frogsCount: 10
+    frogsCrossedToWin: 3
+    frogsMinTimeToMove: 0.6
+    frogsMaxTimeToMove: 0.8
+    frogSpawnMinTime: 0.4
+    frogSpawnMaxTime: 0.8
+    frogMoveSidewaysChance: 3
+  - levelPartsCount: 16
+    minRoadParts: 6
+    maxRoadParts: 7
+    minRailRoadParts: 0
+    maxRailRoadParts: 1
+    frogsCount: 15
+    frogsCrossedToWin: 4
+    frogsMinTimeToMove: 0.5
+    frogsMaxTimeToMove: 0.8
+    frogSpawnMinTime: 0.4
+    frogSpawnMaxTime: 0.8
+    frogMoveSidewaysChance: 5
+  - levelPartsCount: 30
+    minRoadParts: 0
+    maxRoadParts: 0
+    minRailRoadParts: 10
+    maxRailRoadParts: 15
+    frogsCount: 2
+    frogsCrossedToWin: 0
+    frogsMinTimeToMove: 0.2
+    frogsMaxTimeToMove: 0.2
+    frogSpawnMinTime: 0
+    frogSpawnMaxTime: 0
+    frogMoveSidewaysChance: 10
+  - levelPartsCount: 20
+    minRoadParts: 15
+    maxRoadParts: 15
+    minRailRoadParts: 3
+    maxRailRoadParts: 6
+    frogsCount: 50
+    frogsCrossedToWin: 5
+    frogsMinTimeToMove: 1
+    frogsMaxTimeToMove: 2
+    frogSpawnMinTime: 0.2
+    frogSpawnMaxTime: 0.2
+    frogMoveSidewaysChance: 100
+  - levelPartsCount: 18
+    minRoadParts: 5
+    maxRoadParts: 5
+    minRailRoadParts: 1
+    maxRailRoadParts: 3
+    frogsCount: 18
+    frogsCrossedToWin: 3
+    frogsMinTimeToMove: 0.5
+    frogsMaxTimeToMove: 0.8
+    frogSpawnMinTime: 0.4
+    frogSpawnMaxTime: 0.8
+    frogMoveSidewaysChance: 3
+  - levelPartsCount: 25
+    minRoadParts: 10
+    maxRoadParts: 10
+    minRailRoadParts: 1
+    maxRailRoadParts: 4
+    frogsCount: 20
+    frogsCrossedToWin: 3
+    frogsMinTimeToMove: 0.5
+    frogsMaxTimeToMove: 0.8
+    frogSpawnMinTime: 0.2
+    frogSpawnMaxTime: 0.2
+    frogMoveSidewaysChance: 3
