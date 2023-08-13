@@ -8,3 +8,6 @@ The development took 48 hours in a hurry, so a lot of code decisions are workaro
 
 ### Controls:
 Click on the road/railroad to run a car or a train to run over the frogs as much as you can 
+
+### Code:
+The entry point of the game is a script "GameLoader" on the "Main" scene
